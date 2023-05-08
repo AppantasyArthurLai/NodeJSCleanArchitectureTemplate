@@ -1,6 +1,6 @@
-# My Express App
+# NodeJS Clean Architecture Template
 
-This is a boilerplate for building Express applications using Clean Architecture. The project structure is designed to make it easy to develop, maintain, and scale your application by organizing the code into logical components.
+This repository is a boilerplate for building scalable Express applications using Clean Architecture. It offers a well-organized structure, separating concerns into logical components like controllers, domain logic, and services. This template streamlines the development of robust web applications with built-in testing and configuration management.
 
 ## 1. Directory Structure
 
@@ -35,14 +35,20 @@ my-express-app/
 
 ## 2. Usage
 
-To use this boilerplate for your own project, follow these steps:
+To use this template for your own project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/my-express-app.git`
+1. Clone the repository into your desired project directory (replace `my-express-app` with your preferred directory name): `git clone https://github.com/AppantasyArthurLai/NodeJSCleanArchitectureTemplate.git my-express-app`
 2. Navigate to the project directory: `cd my-express-app`
-3. Install dependencies: `npm install`
-4. Create a `.env` file and configure the required environment variables.
-5. Start the development server: `npm run dev`
-6. Run tests: `npm test`
+3. Remove the original remote and add your own repository as the new remote origin: 
+``` console
+git remote remove origin
+git remote add origin https://github.com/yourusername/your-repo.git
+```
+4. Install dependencies: `npm install`
+5. Create a `.env` file and configure the required environment variables.
+6. Start the development server: `npm run dev`
+7. Run tests: `npm test`
+
 
 ## 3. Changelog
 
@@ -52,7 +58,7 @@ To use this boilerplate for your own project, follow these steps:
 
 ## 4. Contributors
 
-- [Your Name](https://github.com/yourusername)
+- [Arthur Lai](https://github.com/AppantasyArthurLai)
 
 ## 5. License
 
