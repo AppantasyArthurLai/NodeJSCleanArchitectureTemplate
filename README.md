@@ -1,6 +1,11 @@
+## Language
+
+- [日本語](README.ja.md)
+
 # NodeJS Clean Architecture Template
 
 This repository is a boilerplate for building scalable Express applications using Clean Architecture. It offers a well-organized structure, separating concerns into logical components like controllers, domain logic, and services. This template streamlines the development of robust web applications with built-in testing and configuration management.
+
 
 ## 1. Directory Structure
 
