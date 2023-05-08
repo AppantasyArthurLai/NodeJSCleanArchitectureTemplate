@@ -11,7 +11,7 @@ This repository is a boilerplate for building scalable Express applications usin
 
 The project is structured as follows:
 
-``` console
+``` bash
 my-express-app/
 │
 ├── src/
@@ -45,7 +45,7 @@ To use this template for your own project, follow these steps:
 1. Clone the repository into your desired project directory (replace `my-express-app` with your preferred directory name): `git clone https://github.com/AppantasyArthurLai/NodeJSCleanArchitectureTemplate.git my-express-app`
 2. Navigate to the project directory: `cd my-express-app`
 3. Remove the original remote and add your own repository as the new remote origin: 
-``` console
+``` bash
 git remote remove origin
 git remote add origin https://github.com/yourusername/your-repo.git
 ```

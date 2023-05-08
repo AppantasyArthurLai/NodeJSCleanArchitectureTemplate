@@ -11,7 +11,7 @@
 
 プロジェクト構造は以下のとおりです。
 
-``` console
+``` bash
 my-express-app/
 │
 ├── src/
@@ -46,7 +46,7 @@ my-express-app/
 1. リポジトリをクローンし、任意のプロジェクトディレクトリに配置します（`my-express-app`をお好みのディレクトリ名に置き換えてください）: `git clone https://github.com/AppantasyArthurLai/NodeJSCleanArchitectureTemplate.git my-express-app`
 2. プロジェクトディレクトリに移動します: `cd my-express-app`
 3. 元のリモートを削除し、新しいリモートオリジンとして自分のリポジトリを追加します:
-``` console
+``` bash
 git remote remove origin
 git remote add origin https://github.com/yourusername/your-repo.git
 ```
